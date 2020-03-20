@@ -1,0 +1,14 @@
+{
+  "name": "pause-discord-bot",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Sebastian Scholl <scholl.sebastian@gmx.at> (github.com/schollsebastian)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "node-schedule": "1.3.2"
+  }
+}
