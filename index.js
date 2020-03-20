@@ -21,7 +21,7 @@ pauseBot.on('message', (user, userId, channelId, message) => {
                 jobs.push(schedule.scheduleJob(configuration.time, () => {
                     pauseBot.sendMessage({
                         to: channelId,
-                        message: configuration.message || 'Pause!'
+                        message: configuration.message || 'Time for a break!'
                     });
                 }));
             }

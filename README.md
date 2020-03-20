@@ -1,4 +1,4 @@
-# Discord-Pause-Bot
+# Discord-Break-Bot
 
 A bot that reminds your teacher that the break has begun.
 
@@ -21,7 +21,7 @@ To add breaks type `p!configure [json]` in the channel you want the bot to send 
             "minute": 20,
             "dayOfWeek": 5
         },
-        "message": "Pause!"
+        "message": "Time for a break!"
     },
     {
         "time": {
@@ -33,7 +33,7 @@ To add breaks type `p!configure [json]` in the channel you want the bot to send 
 ]
 ```
 
-The `message` attribute is optional. It specifies the message that is sent by the bot.
+The `message` attribute is optional. It specifies the message that is sent by the bot. The default message is "Time for a break!"
 
 ### Clearing breaks
 
